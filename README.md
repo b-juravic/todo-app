@@ -1,7 +1,5 @@
 ## `Todo App!`
 
-<em>A mobile first responsive single page React application</em>
-
 <!-- Add Image and demo link once deployed -->
 
 --------------------------

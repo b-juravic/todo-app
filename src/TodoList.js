@@ -19,7 +19,7 @@ function TodoList() {
   const [isLoading, setIsLoading] = useState(true);
 
   /** fetch all todos and update state */
-  useEffect(function () {
+  useEffect(function fetchTodos () {
     async function getAllTodos() {
       const todos = await getTodos();
       setTodoList(todos);
@@ -41,13 +41,24 @@ function TodoList() {
   /** edit todo and update state */
   async function editTodo(data) {
     await updateTodo(data);
-    setTodoList(t => ([
-      ...t,
-      data
-    ]));
+    setIsLoading(true);
+
+    const todos = await getTodos();
+
+    setTodoList(todos);
+    setIsLoading(false);
   }
 
   /** delete todo and update state */
+  async function removeTodo(id) {
+    await deleteTodo(id);
+    setIsLoading(true);
+
+    const todos = await getTodos();
+
+    setTodoList(todos);
+    setIsLoading(false);
+  }
 
   const todoItems = todoList.map(({ id, todo }) => {
     return (
@@ -55,6 +66,8 @@ function TodoList() {
         key={id}
         id={id}
         todo={todo}
+        editTodo={editTodo}
+        removeTodo={removeTodo}
       />
     );
   });
