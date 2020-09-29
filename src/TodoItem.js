@@ -1,16 +1,18 @@
 import React, {useState} from "react";
 import "./TodoItem.css";
 import EditTodoForm from "./EditTodoForm";
+import Todo from "./Todo";
 
 /**
- * Renders single TodoItem
+ * Renders Todo with delete, edit, and complete buttons or EditTodoForm
  *
  * State
  * -- editMode: boolean
+ * -- todoStatus: "" pending or complete
  *
  * Props
  * -- id:  "" unique id
- * -- toto:  "" todo value
+ * -- todo:  "" todo value
  * -- status: "" pending || complete
  * -- updateTodo: function to edit existing todo value or toggle todo status
  * -- removeTodo: function to delete existing todo item
@@ -41,7 +43,7 @@ function TodoItem({ id, todo, status, updateTodo, removeTodo }) {
     {editMode
       ? <EditTodoForm id={id} currentTodo={todo} updateTodo={updateTodo} />
       : <>
-        <span>{todo}</span>
+        <Todo todo={todo} status={status}/>
         <span>
           {/* using X, pencil, and check mark unicode characters */}
           <button onClick={handleDelete}>&#10007;</button>

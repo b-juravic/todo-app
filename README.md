@@ -26,6 +26,7 @@ Components
 * App
 * TodoList
 * TodoItem
+* Todo
 * AddTodoForm
 * EditTodoForm
 
