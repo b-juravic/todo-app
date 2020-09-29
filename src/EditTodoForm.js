@@ -6,14 +6,14 @@ import React, { useState } from "react";
  * Props
  * -- id: "" todo unique id
  * -- currentTodo: "" existing todo value
- * -- editTodo: function to add edit todo item
+ * -- editTodo: function to edit todo value
  *
  * State
  * -- todo: todo form value
  *
  * App -> TodoList -> TodoItem -> EditTodoForm
  */
-function EditTodoForm({ id, currentTodo, editTodo }) {
+function EditTodoForm({ id, currentTodo, updateTodo }) {
   const [todo, setTodo] = useState(currentTodo);
 
   function handleChange(evt) {
@@ -23,7 +23,7 @@ function EditTodoForm({ id, currentTodo, editTodo }) {
   function handleSubmit(evt) {
     evt.preventDefault();
 
-    editTodo({id, todo});
+    updateTodo({id, todo});
   }
 
   return (
@@ -37,7 +37,8 @@ function EditTodoForm({ id, currentTodo, editTodo }) {
         onChange={handleChange}
         >
       </input>
-      <button>+</button>
+      {/* using plus unicode character */}
+      <button>&#65291;</button>
     </form>
   );
 }

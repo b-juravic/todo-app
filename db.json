@@ -2,27 +2,18 @@
   "todos": [
     {
       "id": "test-1-2-3-4",
-      "todo": "test 1 todo"
+      "todo": "test 1 todo",
+      "status": "pending"
     },
     {
       "id": "test-4-5-6-7",
-      "todo": "test 2 todo"
+      "todo": "test 2 todo",
+      "status": "pending"
     },
     {
       "id": "test-8-9-10-11",
-      "todo": "test 3 todo"
-    },
-    {
-      "id": "72614ac6-e449-48e9-9a33-a2f47b3bfcf8",
-      "todo": "eat something yummy"
-    },
-    {
-      "id": "37eece01-4819-4da4-b44c-adbcc35252e9",
-      "todo": "sleep"
-    },
-    {
-      "id": "b56a2ae3-7381-4ecb-9337-b88e3eedbc61",
-      "todo": "code"
+      "todo": "test 3 todo",
+      "status": "pending"
     }
   ]
 }

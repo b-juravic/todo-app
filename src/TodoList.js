@@ -38,7 +38,7 @@ function TodoList() {
     ]));
   }
 
-  /** edit todo and update state */
+  /** update todo or toggle todo status and update state */
   async function editTodo(data) {
     await updateTodo(data);
     setIsLoading(true);
@@ -60,13 +60,14 @@ function TodoList() {
     setIsLoading(false);
   }
 
-  const todoItems = todoList.map(({ id, todo }) => {
+  const todoItems = todoList.map(({ id, todo, status }) => {
     return (
       <TodoItem
         key={id}
         id={id}
         todo={todo}
-        editTodo={editTodo}
+        status={status}
+        updateTodo={editTodo}
         removeTodo={removeTodo}
       />
     );

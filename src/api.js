@@ -20,7 +20,7 @@ export async function deleteTodo(id) {
   await axios.delete(`${BASE_URL}/todos/${id}`);
 }
 
-/** Update existing item [PUT] */
+/** Update existing todo value or status [PATCH] */
 export async function updateTodo(data) {
-  await axios.put(`${BASE_URL}/todos/${data.id}`, data);
+  await axios.patch(`${BASE_URL}/todos/${data.id}`, data);
 }

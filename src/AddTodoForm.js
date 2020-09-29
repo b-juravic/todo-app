@@ -12,7 +12,6 @@ import { v4 as uuid } from "uuid";
  *
  * App -> TodoList -> AddTodoForm
  */
-
 function AddTodoForm({ addNewTodo }) {
   const [todo, setTodo] = useState("");
 
@@ -23,8 +22,8 @@ function AddTodoForm({ addNewTodo }) {
   function handleSubmit(evt) {
     evt.preventDefault();
 
-    // create todo object and add unique id
-    const newTodo = { id: uuid(), todo };
+    // create todo object, add unique id and status
+    const newTodo = { id: uuid(), todo, status: "pending" };
 
     addNewTodo(newTodo);
     setTodo("");
@@ -41,7 +40,8 @@ function AddTodoForm({ addNewTodo }) {
         onChange={handleChange}
         >
       </input>
-      <button>+</button>
+      {/* using plus unicode character */}
+      <button>&#65291;</button>
     </form>
   );
 }
