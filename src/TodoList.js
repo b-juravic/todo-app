@@ -77,10 +77,19 @@ function TodoList() {
   if (isLoading) return <p>Loading...</p>
 
   return (
-    <div className="TodoList">
-      {todoItems}
+    <ul className="TodoList">
       <AddTodoForm addNewTodo={addNewTodo} />
-    </div>
+      {todoItems}
+      <svg className="svg-notebook-pattern" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+
+          <line x1="82" y1="0" x2="82" y2="10000" stroke="#ff9999" stroke-width="2" />
+          <line x1="89" y1="0" x2="89" y2="10000" stroke="#ff9999" stroke-width="2" />
+        <pattern id="pattern-notebook" x="0" y="0" width="100" height="25" patternUnits="userSpaceOnUse">
+          <line x1=".1" y1="0" x2="100" y2="0" stroke="#4db8ff" strokeWidth="1.5" />
+        </pattern>
+        <rect fill="url(#pattern-notebook)" x="0" y="0" width="100%" height="100%"></rect>
+      </svg>
+    </ul>
   );
 }
 

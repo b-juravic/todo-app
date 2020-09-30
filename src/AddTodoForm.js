@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
+import "./AddTodoForm.css";
+
+// TODO: prevent submission of blank item and trim left/right extra spaces
 
 /**
  * Renders form to add new todo item
@@ -30,7 +33,7 @@ function AddTodoForm({ addNewTodo }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="AddTodoForm" onSubmit={handleSubmit}>
       <label htmlFor="new todo"></label>
       <input
         id="new todo"

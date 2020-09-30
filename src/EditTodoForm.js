@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// TODO: prevent submission of blank item and trim left/right extra spaces
+
 /**
  * Renders form to edit existing todo item
  *

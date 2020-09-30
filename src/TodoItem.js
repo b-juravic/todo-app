@@ -22,7 +22,6 @@ import Todo from "./Todo";
 
 function TodoItem({ id, todo, status, updateTodo, removeTodo }) {
   const [editMode, setEditMode] = useState(false);
-  const [todoStatus, setTodoStatus] = useState(status);
 
   const handleDelete = removeTodo.bind(null, id);
 
