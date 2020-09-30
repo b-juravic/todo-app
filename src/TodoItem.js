@@ -39,12 +39,10 @@ function TodoItem({ id, todo, status, updateTodo, removeTodo }) {
 
   return (
     <li id={id} className="TodoItem">
-      <span>
-        <svg className="vertical-lines" width="100" height="24" xmlns="http://www.w3.org/2000/svg">
-          <line x1="82" y1="0" x2="82" y2="50" stroke="#ff9999" strokeWidth="2" />
-          <line x1="89" y1="0" x2="89" y2="50" stroke="#ff9999" strokeWidth="2" />
-        </svg>
-      </span>
+      <svg className="vertical-lines" width="100" height="24" xmlns="http://www.w3.org/2000/svg">
+        <line x1="82" y1="0" x2="82" y2="50" stroke="#ff9999" strokeWidth="2" />
+        <line x1="89" y1="0" x2="89" y2="50" stroke="#ff9999" strokeWidth="2" />
+      </svg>
       {editMode
         ? <EditTodoForm id={id} currentTodo={todo} updateTodo={updateTodo} />
         : <>
@@ -60,42 +58,3 @@ function TodoItem({ id, todo, status, updateTodo, removeTodo }) {
 }
 
 export default TodoItem;
-
-// return (
-//   <li id= {id} className="TodoItem">
-//     <span>
-//      <svg className="vertical-lines" width="100%" height="24" xmlns="http://www.w3.org/2000/svg">
-//        <line x1="82" y1="0" x2="82" y2="200" stroke="#ff9999" strokeWidth="2" />
-//        <line x1="89" y1="0" x2="89" y2="200" stroke="#ff9999" strokeWidth="2" />
-//      </svg>
-//    </span>
-//   {editMode
-//     ? <EditTodoForm id={id} currentTodo={todo} updateTodo={updateTodo} />
-//     : <>
-//       <Todo todo={todo} status={status}/>
-//       <span>
-//         {/* using X, pencil, and check mark unicode characters */}
-//         <button onClick={handleDelete}>&#10007;</button>
-//         <button onClick={handleEdit}>&#x270E;</button>
-//         <button onClick={handleToggleStatus}>&#10003;</button>
-//       </span></>}
-//   </li>
-// );
-
-// return (
-//   <li id= {id} className="TodoItem">
-//     <span>
-//      <svg className="vertical-lines" width="100%" height="24" xmlns="http://www.w3.org/2000/svg">
-//        <line x1="82" y1="0" x2="82" y2="50" stroke="#ff9999" strokeWidth="2" />
-//        <line x1="89" y1="0" x2="89" y2="50" stroke="#ff9999" strokeWidth="2" />
-//      </svg>
-//     </span>
-//     <Todo todo={todo} status={status}/>
-//     <span className="button-collection">
-//       {/* using X, pencil, and check mark unicode characters */}
-//       <button onClick={handleDelete}>&#10007;</button>
-//       <button onClick={handleEdit}>&#x270E;</button>
-//       <button onClick={handleToggleStatus}>&#10003;</button>
-//     </span>
-//   </li>
-// );

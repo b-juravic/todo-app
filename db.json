@@ -22,17 +22,7 @@
     },
     {
       "id": "601320ba-ad2c-4098-8b5e-d3c63bbea7a5",
-      "todo": "take a nap",
-      "status": "pending"
-    },
-    {
-      "id": "02a2ed74-a8c0-4fa6-8bf4-2e8931d06486",
-      "todo": "code",
-      "status": "pending"
-    },
-    {
-      "id": "7d0a72fa-0e64-431f-8185-7ecfbf2fe0e5",
-      "todo": "read",
+      "todo": "take long nap",
       "status": "pending"
     },
     {
@@ -41,8 +31,23 @@
       "status": "pending"
     },
     {
-      "id": "ddb159a4-e7d6-4c74-bf0e-a4dea0735edf",
-      "todo": "test 2",
+      "id": "8067fe62-9701-4639-84ce-f8b726ed21f5",
+      "todo": "code more",
+      "status": "pending"
+    },
+    {
+      "id": "f8f702e2-3df8-4e9f-9b29-11f88a7cafc6",
+      "todo": "workout",
+      "status": "pending"
+    },
+    {
+      "id": "79643e7d-a85e-485e-b4d6-96fbc01d7775",
+      "todo": "eat again",
+      "status": "pending"
+    },
+    {
+      "id": "6833ea1f-0ec6-4d47-8c67-b387018d3352",
+      "todo": "sleep!",
       "status": "pending"
     }
   ]
