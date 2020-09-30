@@ -1,4 +1,4 @@
-## `Todo App!`
+## `ToDo App!`
 
 <!-- Add Image and demo link once deployed -->
 
