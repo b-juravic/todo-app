@@ -28,6 +28,8 @@ code {
 
 .app-header {
   text-align: center;
+  height: 125px;
+  /* border: 1px solid black; */
 }
 
 .app-header h1 {

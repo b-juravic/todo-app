@@ -47,7 +47,7 @@ function TodoItem({ id, todo, status, updateTodo, removeTodo }) {
         ? <EditTodoForm id={id} currentTodo={todo} updateTodo={updateTodo} />
         : <>
           <Todo todo={todo} status={status} />
-          <span>
+          <span className="button-collection">
             {/* using X, pencil, and check mark unicode characters */}
             <button onClick={handleDelete}>&#10007;</button>
             <button onClick={handleEdit}>&#x270E;</button>

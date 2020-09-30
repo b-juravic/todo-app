@@ -1,7 +1,10 @@
+.TodoList-wrapper {
+  /* todolist wrapper height is 100vh - ul height - header height */
+  height: calc(100vh - var(--ulHeight) - 125px);
+}
+
 ul.TodoList {
   list-style: none;
   margin: 0;
-  /* margin-top: 90px; */
   padding-left: 0;
-  height: 100vh;
 }

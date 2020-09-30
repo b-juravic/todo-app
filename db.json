@@ -14,41 +14,6 @@
       "id": "test-8-9-10-11",
       "todo": "test 3 todo",
       "status": "pending"
-    },
-    {
-      "id": "0efaac77-5ab8-495c-8f24-f5c639dc97e7",
-      "todo": "eat something yummy",
-      "status": "pending"
-    },
-    {
-      "id": "601320ba-ad2c-4098-8b5e-d3c63bbea7a5",
-      "todo": "take long nap",
-      "status": "pending"
-    },
-    {
-      "id": "062533b2-087c-4aa1-834d-ba2a59808476",
-      "todo": "eat again",
-      "status": "pending"
-    },
-    {
-      "id": "8067fe62-9701-4639-84ce-f8b726ed21f5",
-      "todo": "code more",
-      "status": "pending"
-    },
-    {
-      "id": "f8f702e2-3df8-4e9f-9b29-11f88a7cafc6",
-      "todo": "workout",
-      "status": "pending"
-    },
-    {
-      "id": "79643e7d-a85e-485e-b4d6-96fbc01d7775",
-      "todo": "eat again",
-      "status": "pending"
-    },
-    {
-      "id": "6833ea1f-0ec6-4d47-8c67-b387018d3352",
-      "todo": "sleep!",
-      "status": "pending"
     }
   ]
 }

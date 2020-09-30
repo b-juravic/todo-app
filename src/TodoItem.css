@@ -5,3 +5,7 @@
 .vertical-lines {
   position: absolute;
 }
+
+.button-collection button {
+  margin-left: .8rem;
+}
