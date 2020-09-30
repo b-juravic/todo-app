@@ -1,3 +1,7 @@
+.Todo {
+  padding-left: 95px;
+}
+
 .complete {
   color: darkgreen;
   text-decoration-line: line-through;

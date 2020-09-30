@@ -11,10 +11,10 @@ import "./Todo.css";
  * App -> TodoList -> TodoItem -> Todo
  */
 function Todo({ todo, status }) {
+  const todoClassName = `Todo ${status}`;
+
   return (
-    <span className={status}>
-      {todo}
-    </span>
+    <span className={todoClassName}>{todo}</span>
   );
 }
 

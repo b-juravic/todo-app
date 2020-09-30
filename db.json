@@ -16,11 +16,6 @@
       "status": "pending"
     },
     {
-      "id": "4704ad76-51fe-4555-84ea-0179d44ac150",
-      "todo": "sleep in",
-      "status": "pending"
-    },
-    {
       "id": "0efaac77-5ab8-495c-8f24-f5c639dc97e7",
       "todo": "eat something yummy",
       "status": "pending"
@@ -38,6 +33,16 @@
     {
       "id": "7d0a72fa-0e64-431f-8185-7ecfbf2fe0e5",
       "todo": "read",
+      "status": "pending"
+    },
+    {
+      "id": "062533b2-087c-4aa1-834d-ba2a59808476",
+      "todo": "eat again",
+      "status": "pending"
+    },
+    {
+      "id": "ddb159a4-e7d6-4c74-bf0e-a4dea0735edf",
+      "todo": "test 2",
       "status": "pending"
     }
   ]

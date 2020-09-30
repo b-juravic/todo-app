@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./EditTodoForm.css";
 
 // TODO: prevent submission of blank item and trim left/right extra spaces
 
@@ -29,7 +30,7 @@ function EditTodoForm({ id, currentTodo, updateTodo }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="EditTodoForm" onSubmit={handleSubmit}>
       <label htmlFor="edit todo"></label>
       <input
         id="edit todo"

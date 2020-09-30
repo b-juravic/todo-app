@@ -1,6 +1,7 @@
 .AddTodoForm {
   border-top: 1px solid #4db8ff;
-  border-top: 1px solid #4db8ff;
-  border-left: 4px double #ff9999;
-  padding-left: 5px;
+}
+
+.add-form {
+  padding-left: 95px;
 }
