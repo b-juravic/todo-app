@@ -34,22 +34,23 @@ function AddTodoForm({ addNewTodo }) {
 
   return (
     <div className="AddTodoForm">
-      <svg className="vertical-lines" width="100" height="24" xmlns="http://www.w3.org/2000/svg">
-        <line x1="82" y1="0" x2="82" y2="50" stroke="#ff9999" strokeWidth="2" />
-        <line x1="89" y1="0" x2="89" y2="50" stroke="#ff9999" strokeWidth="2" />
+      <svg className="vertical-lines" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <line x1="82" y1="0" x2="82" y2="100" stroke="#ff9999" strokeWidth="2" />
+        <line x1="89" y1="0" x2="89" y2="100" stroke="#ff9999" strokeWidth="2" />
       </svg>
       <form className="add-form" onSubmit={handleSubmit}>
+        {/* using plus unicode character */}
+        <button>&#65291;</button>
         <label htmlFor="new todo"></label>
         <input
           id="new todo"
           name="new todo"
-          placeholder="new todo"
+          placeholder="new ToDo here"
+          size="40"
           value={todo}
           onChange={handleChange}
         >
         </input>
-        {/* using plus unicode character */}
-        <button>&#65291;</button>
       </form>
     </div>
   );

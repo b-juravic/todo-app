@@ -1,11 +1,26 @@
 .TodoItem {
   border-top: 1px solid #4db8ff;
+
+  border-right: 1px solid p
 }
+
+/* .container {
+  border: 1px solid black;
+  wi
+} */
 
 .vertical-lines {
   position: absolute;
 }
 
+.button-collection {
+  padding-left: 83px;
+}
+
 .button-collection button {
   margin-left: .8rem;
+}
+
+.complete {
+  color: green;
 }

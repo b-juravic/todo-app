@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
 
 .Todo {
-  padding-left: 95px;
+  /* padding-left: 95px; */
+  padding-left: 1rem;
   color: #333333;
   font-family: 'Crafty Girls', cursive;
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
 }
 
 .complete {
-  color: darkgreen;
+  /* color: darkgreen; */
   text-decoration-line: line-through;
   text-decoration-color: gray;
+  text-decoration-color: #66ffc2;
 }

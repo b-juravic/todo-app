@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
 .AddTodoForm {
   border-top: 1px solid #4db8ff;
 }
 
 .add-form {
   padding-left: 95px;
+}
+
+.add-form button {
+  margin-right: .6rem;;
+  margin-left: 5.2rem;
+}
+
+.add-form input {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 1.5rem;
+  border: .5px solid lightgray;
+  border-radius: 4px;;
+  margin: 2px;
+  outline: none;
 }

@@ -8,11 +8,56 @@
     {
       "id": "test-4-5-6-7",
       "todo": "test 2 todo",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "id": "test-8-9-10-11",
       "todo": "test 3 todo",
+      "status": "pending"
+    },
+    {
+      "id": "dbf58db5-4b70-4e1e-8ce3-0c28e65dad87",
+      "todo": "groceries at trader joes",
+      "status": "complete"
+    },
+    {
+      "id": "c9fdb303-baf6-4d9d-8f0f-5c3c81643ae4",
+      "todo": "make tuna casserole for baby love :)",
+      "status": "pending"
+    },
+    {
+      "id": "46352bec-1917-45e9-9126-733916f65eb8",
+      "todo": "workout (no running!)",
+      "status": "pending"
+    },
+    {
+      "id": "1e1a6b41-351a-45c9-9f75-8b8d58c9aa4d",
+      "todo": "eat something yummy",
+      "status": "pending"
+    },
+    {
+      "id": "c4ac6478-3e44-426c-93c8-c986626ab19b",
+      "todo": "code",
+      "status": "complete"
+    },
+    {
+      "id": "f1d7453f-c773-434d-be56-2e041bbac637",
+      "todo": "sleep in today",
+      "status": "pending"
+    },
+    {
+      "id": "990d8276-e0a3-46e9-a954-1659bcdea7a9",
+      "todo": "eat... again",
+      "status": "pending"
+    },
+    {
+      "id": "1b9da961-5cc4-4023-a800-bf6b42e4ed1f",
+      "todo": "code more",
+      "status": "pending"
+    },
+    {
+      "id": "97a6a301-b6c0-47ce-9f0f-04a0b75ab000",
+      "todo": "watch top chef masters",
       "status": "pending"
     }
   ]
