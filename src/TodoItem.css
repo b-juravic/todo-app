@@ -1,26 +1,26 @@
 .TodoItem {
   border-top: 1px solid #4db8ff;
-
-  border-right: 1px solid p
 }
-
-/* .container {
-  border: 1px solid black;
-  wi
-} */
 
 .vertical-lines {
   position: absolute;
 }
 
-.button-collection {
+.icon-collection {
+  display: inline-block;
+  padding: 0;
   padding-left: 83px;
+  height: 26px;
 }
 
-.button-collection button {
+.icon-collection svg {
+  display: inline-block;
+  vertical-align: middle;
+  height: 25px;
   margin-left: .8rem;
+  fill: #666666;
 }
 
-.complete {
-  color: green;
+.icon-edit:hover, .icon-delete:hover, .icon-complete-status:hover{
+  fill: #4db8ff;
 }

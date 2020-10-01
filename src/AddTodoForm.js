@@ -39,8 +39,11 @@ function AddTodoForm({ addNewTodo }) {
         <line x1="89" y1="0" x2="89" y2="100" stroke="#ff9999" strokeWidth="2" />
       </svg>
       <form className="add-form" onSubmit={handleSubmit}>
-        {/* using plus unicode character */}
-        <button>&#65291;</button>
+        <button>
+          <svg className="add" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 0a12 12 0 100 24 12 12 0 000-24zm6 13h-5v5h-2v-5H6v-2h5V6h2v5h5v2z" />
+          </svg>
+        </button>
         <label htmlFor="new todo"></label>
         <input
           id="new todo"

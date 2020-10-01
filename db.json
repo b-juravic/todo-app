@@ -21,11 +21,6 @@
       "status": "complete"
     },
     {
-      "id": "c9fdb303-baf6-4d9d-8f0f-5c3c81643ae4",
-      "todo": "make tuna casserole for baby love :)",
-      "status": "pending"
-    },
-    {
       "id": "46352bec-1917-45e9-9126-733916f65eb8",
       "todo": "workout (no running!)",
       "status": "pending"
@@ -41,23 +36,13 @@
       "status": "complete"
     },
     {
-      "id": "f1d7453f-c773-434d-be56-2e041bbac637",
-      "todo": "sleep in today",
+      "id": "f3d7ab2a-5c53-4191-970e-4e1f8a629e90",
+      "todo": "sleep in again!",
       "status": "pending"
     },
     {
-      "id": "990d8276-e0a3-46e9-a954-1659bcdea7a9",
-      "todo": "eat... again",
-      "status": "pending"
-    },
-    {
-      "id": "1b9da961-5cc4-4023-a800-bf6b42e4ed1f",
-      "todo": "code more",
-      "status": "pending"
-    },
-    {
-      "id": "97a6a301-b6c0-47ce-9f0f-04a0b75ab000",
-      "todo": "watch top chef masters",
+      "id": "6adcc899-56d4-4a2b-bd54-fab49cead1e5",
+      "todo": "code more :)",
       "status": "pending"
     }
   ]
